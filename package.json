@@ -1,0 +1,13 @@
+{
+  "name": "complex-form-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./style.css -o ./build/css/style.css --watch",
+    "build": "tailwindcss -o ./build/css/build.css --minify"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
